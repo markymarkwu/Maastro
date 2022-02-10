@@ -1,0 +1,26 @@
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+torch.Size([2, 3, 512, 512]) torch.Size([2, 1, 512, 512])
+
+ 10%|████▍                                       | 1/10 [00:03<00:27,  3.00s/it]
+torch.Size([2, 3, 512, 512]) torch.Size([2, 1, 512, 512])
+Training loss after epoch 1: 0.0523105263710022
+torch.Size([2, 3, 512, 512]) torch.Size([2, 1, 512, 512])
+
+ 20%|████████▊                                   | 2/10 [00:05<00:22,  2.80s/it]
+Training loss after epoch 2: -0.03636735677719116
+
+ 30%|█████████████▏                              | 3/10 [00:08<00:18,  2.70s/it]
+torch.Size([2, 3, 512, 512]) torch.Size([2, 1, 512, 512])
+Training loss after epoch 3: -0.13339883089065552
+
+ 40%|█████████████████▌                          | 4/10 [00:10<00:15,  2.65s/it]
+torch.Size([2, 3, 512, 512]) torch.Size([2, 1, 512, 512])
+Training loss after epoch 4: -0.21716398000717163
+torch.Size([2, 3, 512, 512]) torch.Size([2, 1, 512, 512])
+torch.Size([2, 3, 512, 512]) torch.Size([2, 1, 512, 512])
+
+ 50%|██████████████████████                      | 5/10 [00:13<00:13,  2.60s/it]
+torch.Size([2, 3, 512, 512]) torch.Size([2, 1, 512, 512])
+torch.Size([2, 3, 512, 512]) torch.Size([2, 1, 512, 512])
+Training loss after epoch 6: -0.4149659276008606
+

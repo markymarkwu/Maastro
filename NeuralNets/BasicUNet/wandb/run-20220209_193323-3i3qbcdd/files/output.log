@@ -1,0 +1,17 @@
+
+  0%|                                                     | 0/2 [00:00<?, ?it/s]
+  0%|                                                     | 0/2 [00:04<?, ?it/s]
+Process wandb_internal:
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 159, in wandb_internal
+    thread.join()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 1053, in join
+    self._wait_for_tstate_lock()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 1069, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

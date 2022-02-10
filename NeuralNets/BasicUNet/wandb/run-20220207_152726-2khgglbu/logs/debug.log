@@ -1,0 +1,35 @@
+2022-02-07 15:27:26,530 INFO    MainThread:7443 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/.config/wandb/settings
+2022-02-07 15:27:26,531 INFO    MainThread:7443 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/settings
+2022-02-07 15:27:26,531 INFO    MainThread:7443 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-07 15:27:26,531 INFO    MainThread:7443 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-07 15:27:26,531 INFO    MainThread:7443 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-02-07 15:27:26,531 INFO    MainThread:7443 [wandb_init.py:_log_setup():386] Logging user logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_152726-2khgglbu/logs/debug.log
+2022-02-07 15:27:26,531 INFO    MainThread:7443 [wandb_init.py:_log_setup():387] Logging internal logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_152726-2khgglbu/logs/debug-internal.log
+2022-02-07 15:27:26,532 INFO    MainThread:7443 [wandb_init.py:init():420] calling init triggers
+2022-02-07 15:27:26,532 INFO    MainThread:7443 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {}
+2022-02-07 15:27:26,532 INFO    MainThread:7443 [wandb_init.py:init():471] starting backend
+2022-02-07 15:27:26,532 INFO    MainThread:7443 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-02-07 15:27:26,533 INFO    MainThread:7443 [backend.py:ensure_launched():219] starting backend process...
+2022-02-07 15:27:26,539 INFO    MainThread:7443 [backend.py:ensure_launched():224] started backend process with pid: 7534
+2022-02-07 15:27:26,541 INFO    MainThread:7443 [wandb_init.py:init():480] backend started and connected
+2022-02-07 15:27:26,561 INFO    MainThread:7443 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-07 15:27:26,561 INFO    MainThread:7443 [wandb_run.py:_label_probe_notebook():931] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-02-07 15:27:26,561 INFO    MainThread:7443 [wandb_init.py:init():550] updated telemetry
+2022-02-07 15:27:26,564 INFO    MainThread:7443 [wandb_init.py:init():581] communicating current version
+2022-02-07 15:27:31,569 INFO    MainThread:7443 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-07 15:27:31,589 ERROR   MainThread:7443 [wandb_init.py:init():978] error
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 951, in init
+    run = wi.init()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 597, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 311, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

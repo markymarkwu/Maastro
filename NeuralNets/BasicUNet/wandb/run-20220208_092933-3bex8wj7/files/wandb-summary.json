@@ -1,0 +1,1 @@
+{"dropout": 0.30000000000000004, "train_loss": -4.545505523681641, "epoch": 5.0, "val_loss": 0, "_runtime": 63, "_timestamp": 1644309036, "_step": 5, "_wandb": {"runtime": 62}}

@@ -1,0 +1,11 @@
+
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+  0%|                                                     | 0/2 [00:00<?, ?it/s]
+
+ 50%|██████████████████████                      | 1/2 [02:16<02:16, 136.72s/it]
+
+100%|████████████████████████████████████████████| 2/2 [04:29<00:00, 134.52s/it]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+ERROR:root:dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/wwy/Basic%20UNet%20(dropout-0.5%20&%20lr-0.0001%20&%20epochs-2)/bfptmisc/file_stream
+NoneType: None

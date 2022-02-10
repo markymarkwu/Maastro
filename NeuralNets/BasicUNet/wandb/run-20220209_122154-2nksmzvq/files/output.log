@@ -1,0 +1,37 @@
+
+BasicUNet features: (64, 128, 256, 512, 1024, 64).
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+torch.Size([2, 1, 512, 512]) torch.Size([2, 1, 512, 512])
+
+ 20%|████████▊                                   | 1/5 [01:46<07:07, 106.81s/it]
+Training loss after epoch 1: 2.9296486377716064
+torch.Size([2, 1, 512, 512]) torch.Size([2, 1, 512, 512])
+torch.Size([2, 1, 512, 512]) torch.Size([2, 1, 512, 512])
+
+ 40%|█████████████████▌                          | 2/5 [03:31<05:16, 105.41s/it]
+torch.Size([2, 1, 512, 512]) torch.Size([2, 1, 512, 512])
+
+ 60%|██████████████████████████▍                 | 3/5 [05:16<03:30, 105.43s/it]
+Training loss after epoch 3: 0.31690073013305664
+torch.Size([2, 1, 512, 512]) torch.Size([2, 1, 512, 512])
+torch.Size([2, 1, 512, 512]) torch.Size([2, 1, 512, 512])
+
+ 80%|███████████████████████████████████▏        | 4/5 [06:57<01:43, 103.58s/it]
+ 80%|███████████████████████████████████▏        | 4/5 [06:57<01:43, 103.58s/it]Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 148, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 125, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 388, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+ 80%|███████████████████████████████████▏        | 4/5 [07:42<01:55, 115.50s/it]

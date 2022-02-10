@@ -1,0 +1,89 @@
+2022-02-09 12:31:48,206 INFO    MainThread:4860 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/.config/wandb/settings
+2022-02-09 12:31:48,206 INFO    MainThread:4860 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/settings
+2022-02-09 12:31:48,206 WARNING MainThread:4860 [wandb_setup.py:_flush():75] Unknown environment variable: WANDB_CONFIG_DIR
+2022-02-09 12:31:48,206 INFO    MainThread:4860 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-09 12:31:48,207 INFO    MainThread:4860 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-09 12:31:48,207 INFO    MainThread:4860 [wandb_init.py:_log_setup():386] Logging user logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220209_123148-21gh7x3l/logs/debug.log
+2022-02-09 12:31:48,207 INFO    MainThread:4860 [wandb_init.py:_log_setup():387] Logging internal logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220209_123148-21gh7x3l/logs/debug-internal.log
+2022-02-09 12:31:48,207 INFO    MainThread:4860 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x17e3b9790>
+2022-02-09 12:31:48,207 INFO    MainThread:4860 [wandb_init.py:init():420] calling init triggers
+2022-02-09 12:31:48,207 INFO    MainThread:4860 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {'Architecture': 'Basic UNet', 'epochs': 5, 'batch_size': 2, 'learning_rate': 0.0001, 'dropout': 0.5}
+2022-02-09 12:31:48,207 INFO    MainThread:4860 [wandb_init.py:init():441] re-initializing run, found existing run on stack: 34tos3ez
+2022-02-09 12:31:48,210 INFO    MainThread:4860 [wandb_run.py:finish():1468] finishing run wwy/Basic UNet (dropout-0.5 & lr-0.0001 & epochs-5)/34tos3ez
+2022-02-09 12:31:48,210 INFO    MainThread:4860 [jupyter.py:save_history():429] not saving jupyter history
+2022-02-09 12:31:48,210 INFO    MainThread:4860 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-02-09 12:31:48,210 INFO    MainThread:4860 [wandb_init.py:_jupyter_teardown():318] cleaning up jupyter logic
+2022-02-09 12:31:48,210 INFO    MainThread:4860 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-02-09 12:31:48,211 INFO    MainThread:4860 [wandb_run.py:_restore():1769] restore
+2022-02-09 12:31:48,801 INFO    MainThread:4860 [wandb_run.py:_restore():1769] restore
+2022-02-09 12:31:48,845 ERROR   MainThread:4860 [wandb_init.py:init():978] error
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1805, in _atexit_cleanup
+    self._on_finish()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1980, in _on_finish
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 67, in _publish_telemetry
+    self._publish(rec)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 951, in init
+    run = wi.init()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 450, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1474, in finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1814, in _atexit_cleanup
+    self._backend.cleanup()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/backend/backend.py", line 248, in cleanup
+    self.interface.join()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 458, in join
+    super().join()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 599, in join
+    _ = self._communicate_shutdown()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 455, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-02-09 12:31:56,333 INFO    MainThread:4860 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/.config/wandb/settings
+2022-02-09 12:31:56,334 INFO    MainThread:4860 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/settings
+2022-02-09 12:31:56,334 WARNING MainThread:4860 [wandb_setup.py:_flush():75] Unknown environment variable: WANDB_CONFIG_DIR
+2022-02-09 12:31:56,334 INFO    MainThread:4860 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-09 12:31:56,334 INFO    MainThread:4860 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-09 12:31:56,334 INFO    MainThread:4860 [wandb_init.py:_log_setup():386] Logging user logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220209_123156-2w61kjqz/logs/debug.log
+2022-02-09 12:31:56,334 INFO    MainThread:4860 [wandb_init.py:_log_setup():387] Logging internal logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220209_123156-2w61kjqz/logs/debug-internal.log
+2022-02-09 12:31:56,335 INFO    MainThread:4860 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x17e3b9d60>
+2022-02-09 12:31:56,335 INFO    MainThread:4860 [wandb_init.py:init():420] calling init triggers
+2022-02-09 12:31:56,335 INFO    MainThread:4860 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {'Architecture': 'Basic UNet', 'epochs': 5, 'batch_size': 2, 'learning_rate': 0.0001, 'dropout': 0.5}
+2022-02-09 12:31:56,335 INFO    MainThread:4860 [wandb_init.py:init():441] re-initializing run, found existing run on stack: 34tos3ez
+2022-02-09 12:31:56,337 INFO    MainThread:4860 [wandb_run.py:finish():1468] finishing run wwy/Basic UNet (dropout-0.5 & lr-0.0001 & epochs-5)/34tos3ez
+2022-02-09 12:31:56,337 INFO    MainThread:4860 [jupyter.py:save_history():429] not saving jupyter history
+2022-02-09 12:31:56,338 INFO    MainThread:4860 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-02-09 12:31:56,338 INFO    MainThread:4860 [wandb_init.py:_jupyter_teardown():318] cleaning up jupyter logic
+2022-02-09 12:31:56,340 INFO    MainThread:4860 [wandb_init.py:init():471] starting backend
+2022-02-09 12:31:56,341 INFO    MainThread:4860 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-02-09 12:31:56,343 INFO    MainThread:4860 [backend.py:ensure_launched():219] starting backend process...
+2022-02-09 12:31:56,352 INFO    MainThread:4860 [backend.py:ensure_launched():224] started backend process with pid: 6269
+2022-02-09 12:31:56,354 INFO    MainThread:4860 [wandb_init.py:init():480] backend started and connected
+2022-02-09 12:31:56,388 INFO    MainThread:4860 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-09 12:31:56,388 INFO    MainThread:4860 [wandb_run.py:_label_probe_notebook():931] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-02-09 12:31:56,389 INFO    MainThread:4860 [wandb_init.py:init():550] updated telemetry
+2022-02-09 12:31:56,393 INFO    MainThread:4860 [wandb_init.py:init():581] communicating current version
+2022-02-09 12:31:57,848 INFO    MainThread:4860 [wandb_init.py:init():586] got version response 
+2022-02-09 12:31:57,848 INFO    MainThread:4860 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-09 12:31:58,196 INFO    MainThread:4860 [wandb_init.py:init():624] starting run threads in backend
+2022-02-09 12:31:59,351 INFO    MainThread:4860 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-09 12:31:59,352 INFO    MainThread:4860 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-09 12:31:59,352 INFO    MainThread:4860 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-09 12:31:59,352 INFO    MainThread:4860 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-09 12:31:59,352 INFO    MainThread:4860 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-09 12:31:59,470 INFO    MainThread:4860 [wandb_watch.py:watch():43] Watching
