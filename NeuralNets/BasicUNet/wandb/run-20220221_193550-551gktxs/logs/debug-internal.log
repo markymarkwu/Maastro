@@ -1,0 +1,53 @@
+2022-02-21 19:35:51,303 INFO    MainThread:9220 [internal.py:wandb_internal():89] W&B internal server running at pid: 9220, started at: 2022-02-21 19:35:51.303686
+2022-02-21 19:35:51,304 INFO    WriterThread:9220 [datastore.py:open_for_write():77] open: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/run-551gktxs.wandb
+2022-02-21 19:35:51,304 DEBUG   HandlerThread:9220 [handler.py:handle_request():131] handle_request: check_version
+2022-02-21 19:35:51,305 DEBUG   SenderThread:9220 [sender.py:send():235] send: header
+2022-02-21 19:35:51,305 DEBUG   SenderThread:9220 [sender.py:send_request():249] send_request: check_version
+2022-02-21 19:35:51,550 DEBUG   SenderThread:9220 [sender.py:send():235] send: run
+2022-02-21 19:35:51,908 INFO    SenderThread:9220 [dir_watcher.py:__init__():169] watching files in: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files
+2022-02-21 19:35:51,908 INFO    SenderThread:9220 [sender.py:_start_run_threads():809] run started: 551gktxs with start time 1645468550
+2022-02-21 19:35:51,909 DEBUG   SenderThread:9220 [sender.py:send():235] send: summary
+2022-02-21 19:35:51,909 INFO    SenderThread:9220 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-21 19:35:51,912 DEBUG   HandlerThread:9220 [handler.py:handle_request():131] handle_request: run_start
+2022-02-21 19:35:51,914 DEBUG   HandlerThread:9220 [meta.py:__init__():36] meta init
+2022-02-21 19:35:51,915 DEBUG   HandlerThread:9220 [meta.py:__init__():50] meta init done
+2022-02-21 19:35:51,920 DEBUG   HandlerThread:9220 [meta.py:probe():210] probe
+2022-02-21 19:35:51,923 DEBUG   HandlerThread:9220 [git.py:repo():33] git repository is invalid
+2022-02-21 19:35:51,923 DEBUG   HandlerThread:9220 [meta.py:_save_pip():54] save pip
+2022-02-21 19:35:51,924 DEBUG   HandlerThread:9220 [meta.py:_save_pip():68] save pip done
+2022-02-21 19:35:51,925 DEBUG   HandlerThread:9220 [meta.py:_save_conda():75] save conda
+2022-02-21 19:35:52,912 INFO    Thread-8  :9220 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/conda-environment.yaml
+2022-02-21 19:35:52,913 INFO    Thread-8  :9220 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/wandb-summary.json
+2022-02-21 19:35:52,913 INFO    Thread-8  :9220 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/requirements.txt
+2022-02-21 19:35:54,429 WARNING MainThread:9220 [internal.py:wandb_internal():152] Internal process interrupt: 1
+2022-02-21 19:35:54,485 DEBUG   HandlerThread:9220 [meta.py:_save_conda():85] save conda done
+2022-02-21 19:35:54,485 DEBUG   HandlerThread:9220 [meta.py:probe():248] probe done
+2022-02-21 19:35:54,487 DEBUG   SenderThread:9220 [sender.py:send():235] send: files
+2022-02-21 19:35:54,487 INFO    SenderThread:9220 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-21 19:35:54,922 INFO    Thread-8  :9220 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/wandb-metadata.json
+2022-02-21 19:35:55,337 INFO    Thread-11 :9220 [upload_job.py:push():137] Uploaded file /var/folders/wb/gdwc4q3s1x3cv4bftb9vssb00000gn/T/tmphoe1hqiuwandb/1v9gex3y-wandb-metadata.json
+2022-02-21 19:36:20,958 DEBUG   SenderThread:9220 [sender.py:send():235] send: stats
+2022-02-21 19:36:52,123 DEBUG   SenderThread:9220 [sender.py:send():235] send: stats
+2022-02-21 19:37:23,172 DEBUG   SenderThread:9220 [sender.py:send():235] send: stats
+2022-02-21 19:37:54,226 DEBUG   SenderThread:9220 [sender.py:send():235] send: stats
+2022-02-21 19:38:25,273 DEBUG   SenderThread:9220 [sender.py:send():235] send: stats
+2022-02-21 19:38:56,340 DEBUG   SenderThread:9220 [sender.py:send():235] send: stats
+2022-02-21 19:39:27,402 DEBUG   SenderThread:9220 [sender.py:send():235] send: stats
+2022-02-21 19:39:56,378 WARNING MainThread:9220 [internal.py:wandb_internal():152] Internal process interrupt: 2
+2022-02-21 19:39:56,379 ERROR   MainThread:9220 [internal.py:wandb_internal():155] Internal process interrupted.
+2022-02-21 19:39:56,435 INFO    HandlerThread:9220 [handler.py:finish():739] shutting down handler
+2022-02-21 19:39:56,507 INFO    WriterThread:9220 [datastore.py:close():281] close: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/run-551gktxs.wandb
+2022-02-21 19:39:56,514 INFO    SenderThread:9220 [sender.py:finish():1075] shutting down sender
+2022-02-21 19:39:56,514 INFO    SenderThread:9220 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-21 19:39:56,759 INFO    SenderThread:9220 [dir_watcher.py:finish():313] scan: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files
+2022-02-21 19:39:56,760 INFO    SenderThread:9220 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/requirements.txt requirements.txt
+2022-02-21 19:39:56,760 INFO    SenderThread:9220 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/config.yaml config.yaml
+2022-02-21 19:39:56,767 INFO    SenderThread:9220 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/wandb-summary.json wandb-summary.json
+2022-02-21 19:39:56,767 INFO    SenderThread:9220 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/conda-environment.yaml conda-environment.yaml
+2022-02-21 19:39:56,774 INFO    SenderThread:9220 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/wandb-metadata.json wandb-metadata.json
+2022-02-21 19:39:56,774 INFO    SenderThread:9220 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-21 19:39:56,775 INFO    SenderThread:9220 [file_pusher.py:join():182] waiting for file pusher
+2022-02-21 19:39:58,406 INFO    Thread-12 :9220 [upload_job.py:push():137] Uploaded file /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/requirements.txt
+2022-02-21 19:39:58,465 INFO    Thread-13 :9220 [upload_job.py:push():137] Uploaded file /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/config.yaml
+2022-02-21 19:39:58,467 INFO    Thread-14 :9220 [upload_job.py:push():137] Uploaded file /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_193550-551gktxs/files/wandb-summary.json
+2022-02-21 19:39:59,021 INFO    MainThread:9220 [internal.py:handle_exit():79] Internal process exited

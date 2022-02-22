@@ -1,0 +1,41 @@
+2022-02-21 21:35:06,704 INFO    MainThread:11576 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/.config/wandb/settings
+2022-02-21 21:35:06,704 INFO    MainThread:11576 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/settings
+2022-02-21 21:35:06,704 WARNING MainThread:11576 [wandb_setup.py:_flush():75] Unknown environment variable: WANDB_CONFIG_DIR
+2022-02-21 21:35:06,704 INFO    MainThread:11576 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-21 21:35:06,704 INFO    MainThread:11576 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-21 21:35:06,704 INFO    MainThread:11576 [wandb_init.py:_log_setup():386] Logging user logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_213506-1vv0hlij/logs/debug.log
+2022-02-21 21:35:06,704 INFO    MainThread:11576 [wandb_init.py:_log_setup():387] Logging internal logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220221_213506-1vv0hlij/logs/debug-internal.log
+2022-02-21 21:35:06,705 INFO    MainThread:11576 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x165ab0b50>
+2022-02-21 21:35:06,705 INFO    MainThread:11576 [wandb_init.py:init():420] calling init triggers
+2022-02-21 21:35:06,706 INFO    MainThread:11576 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {'Architecture': 'Basic UNet', 'epochs': 1, 'batch_size': 1, 'learning_rate': 0.0001, 'dropout': 0.5}
+2022-02-21 21:35:06,706 INFO    MainThread:11576 [wandb_init.py:init():471] starting backend
+2022-02-21 21:35:06,706 INFO    MainThread:11576 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-02-21 21:35:06,721 INFO    MainThread:11576 [backend.py:ensure_launched():219] starting backend process...
+2022-02-21 21:35:06,730 INFO    MainThread:11576 [backend.py:ensure_launched():224] started backend process with pid: 11594
+2022-02-21 21:35:06,732 INFO    MainThread:11576 [wandb_init.py:init():480] backend started and connected
+2022-02-21 21:35:06,752 INFO    MainThread:11576 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-21 21:35:06,753 INFO    MainThread:11576 [wandb_run.py:_label_probe_notebook():931] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-02-21 21:35:06,753 INFO    MainThread:11576 [wandb_init.py:init():550] updated telemetry
+2022-02-21 21:35:06,757 INFO    MainThread:11576 [wandb_init.py:init():581] communicating current version
+2022-02-21 21:35:07,211 INFO    MainThread:11576 [wandb_init.py:init():586] got version response 
+2022-02-21 21:35:07,211 INFO    MainThread:11576 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-21 21:35:19,195 WARNING MainThread:11576 [wandb_init.py:init():972] interrupted
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 951, in init
+    run = wi.init()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 597, in init
+    ret = backend.interface.communicate_run(run, timeout=30)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 210, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 311, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
