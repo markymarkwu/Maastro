@@ -1,0 +1,10 @@
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+Training begins:
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+SC (166, 512, 586)
+SM: (166, 512, 586)
+X: torch.Size([3, 32, 89, 107]) y: torch.Size([1, 32, 89, 107])
+input loaded:
+foward finished
+
+100%|█████████████████████████████████████████████| 1/1 [00:06<00:00,  6.98s/it]

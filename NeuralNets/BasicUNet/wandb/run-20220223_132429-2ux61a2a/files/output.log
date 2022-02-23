@@ -1,0 +1,49 @@
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+Training begins:
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+SC (189, 512, 512)
+SM: (189, 512, 512)
+[[[False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]
+  ...
+  [False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]]
+ [[False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]
+  ...
+  [False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]]
+ [[False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]
+  ...
+  [False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]]
+ ...
+ [[False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]
+  ...
+  [False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]]
+ [[False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]
+  ...
+  [False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]]
+ [[False False False ... False False False]
+  [False False False ... False False False]
+  [False False False ... False False False]
+  ...
+  [False False False ... False False False]
+  [False False False ... False False False]
+
+  0%|                                                     | 0/1 [00:02<?, ?it/s]
