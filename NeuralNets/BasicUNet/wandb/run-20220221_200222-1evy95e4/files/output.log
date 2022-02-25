@@ -1,4 +1,0 @@
-
-BasicUNet features: (6, 16, 32, 64, 128, 16).
-  0%|                                                     | 0/1 [00:00<?, ?it/s]WARNING: In /tmp/SimpleITK-build/ITK/Modules/IO/GDCM/src/itkGDCMSeriesFileNames.cxx, line 100
-GDCMSeriesFileNames (0x281505250): No Series were found

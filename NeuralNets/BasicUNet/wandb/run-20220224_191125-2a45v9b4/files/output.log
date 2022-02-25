@@ -1,0 +1,5 @@
+
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+torch.Size([2, 166, 512, 586])
+X: torch.Size([2, 159, 291, 514]) y: torch.Size([1, 159, 291, 514])

@@ -1,0 +1,70 @@
+
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+Training ...
+torch.Size([2, 189, 512, 512])
+X: torch.Size([2, 71, 140, 195]) y: torch.Size([1, 71, 140, 195])
+  0%|                                                     | 0/1 [00:16<?, ?it/s]
+Process wandb_internal:
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 146, in wandb_internal
+    time.sleep(1)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 152, in wandb_internal
+    logger.warning("Internal process interrupt: {}".format(interrupt_count))
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/logging/__init__.py", line 1458, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/logging/__init__.py", line 952, in handle
+    self.emit(record)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/logging/__init__.py", line 1187, in emit
+    StreamHandler.emit(self, record)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/logging/__init__.py", line 1087, in emit
+    self.flush()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/logging/__init__.py", line 1067, in flush
+    self.stream.flush()
+KeyboardInterrupt
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 148, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 125, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 388, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 166, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 114, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 378, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 213, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 218, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

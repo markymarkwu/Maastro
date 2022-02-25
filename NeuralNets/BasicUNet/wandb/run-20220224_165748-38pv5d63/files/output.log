@@ -1,0 +1,19 @@
+
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+  0%|                                                     | 0/2 [00:00<?, ?it/s]
+torch.Size([2, 189, 512, 512])
+X: torch.Size([2, 71, 140, 195]) y: torch.Size([1, 71, 140, 195])
+<input loaded>
+<Foward finished>
+<Backward finished>
+Training loss after epoch 1: 0.9859606027603149
+
+ 50%|██████████████████████▌                      | 1/2 [01:38<01:38, 98.41s/it]
+torch.Size([2, 189, 512, 512])
+X: torch.Size([2, 71, 140, 195]) y: torch.Size([1, 71, 140, 195])
+<input loaded>
+<Foward finished>
+<Backward finished>
+Training loss after epoch 2: 0.9859492778778076
+
+100%|█████████████████████████████████████████████| 2/2 [03:12<00:00, 96.11s/it]

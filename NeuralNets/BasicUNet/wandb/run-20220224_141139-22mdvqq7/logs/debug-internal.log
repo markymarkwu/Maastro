@@ -1,0 +1,24 @@
+2022-02-24 14:11:39,881 INFO    MainThread:7081 [internal.py:wandb_internal():89] W&B internal server running at pid: 7081, started at: 2022-02-24 14:11:39.881549
+2022-02-24 14:11:39,882 INFO    HandlerThread:7081 [handler.py:finish():739] shutting down handler
+2022-02-24 14:11:40,883 ERROR   MainThread:7081 [internal.py:wandb_internal():164] Thread SenderThread:
+Traceback (most recent call last):
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 54, in run
+    self._run()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 94, in _run
+    self._setup()
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 297, in _setup
+    self._sm = sender.SendManager(
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 166, in __init__
+    self._api = internal_api.Api(
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 75, in __init__
+    self._settings = Settings(
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/old/settings.py", line 23, in __init__
+    self._global_settings.read([Settings._global_path()])
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/old/settings.py", line 110, in _global_path
+    util.mkdir_exists_ok(config_dir)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/site-packages/wandb/util.py", line 793, in mkdir_exists_ok
+    os.makedirs(path)
+  File "/Users/wangyangwu/miniforge3/envs/maastro/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/Users/wangyangwu/.config/wandb'
+2022-02-24 14:11:42,896 INFO    MainThread:7081 [internal.py:handle_exit():79] Internal process exited

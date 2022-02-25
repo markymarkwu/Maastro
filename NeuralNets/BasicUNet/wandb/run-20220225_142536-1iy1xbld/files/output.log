@@ -1,0 +1,6 @@
+
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+Original input size:  torch.Size([2, 159, 512, 544])
+Original label size:  (1, 104, 108, 143)
+Cropped input size is:  torch.Size([2, 117, 295, 511])

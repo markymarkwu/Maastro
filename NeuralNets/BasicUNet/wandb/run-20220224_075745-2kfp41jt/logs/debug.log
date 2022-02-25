@@ -1,0 +1,29 @@
+2022-02-24 07:57:45,250 INFO    MainThread:1239 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/.config/wandb/settings
+2022-02-24 07:57:45,251 INFO    MainThread:1239 [wandb_setup.py:_flush():75] Loading settings from /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/settings
+2022-02-24 07:57:45,251 WARNING MainThread:1239 [wandb_setup.py:_flush():75] Unknown environment variable: WANDB_CONFIG_DIR
+2022-02-24 07:57:45,251 INFO    MainThread:1239 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-24 07:57:45,251 INFO    MainThread:1239 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-02-24 07:57:45,251 INFO    MainThread:1239 [wandb_init.py:_log_setup():386] Logging user logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220224_075745-2kfp41jt/logs/debug.log
+2022-02-24 07:57:45,251 INFO    MainThread:1239 [wandb_init.py:_log_setup():387] Logging internal logs to /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220224_075745-2kfp41jt/logs/debug-internal.log
+2022-02-24 07:57:45,251 INFO    MainThread:1239 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16a83aa00>
+2022-02-24 07:57:45,252 INFO    MainThread:1239 [wandb_init.py:init():420] calling init triggers
+2022-02-24 07:57:45,253 INFO    MainThread:1239 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {'Architecture': 'Basic UNet', 'epochs': 1, 'batch_size': 1, 'learning_rate': 0.1, 'dropout': 0.0}
+2022-02-24 07:57:45,253 INFO    MainThread:1239 [wandb_init.py:init():471] starting backend
+2022-02-24 07:57:45,253 INFO    MainThread:1239 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-02-24 07:57:45,274 INFO    MainThread:1239 [backend.py:ensure_launched():219] starting backend process...
+2022-02-24 07:57:45,283 INFO    MainThread:1239 [backend.py:ensure_launched():224] started backend process with pid: 1254
+2022-02-24 07:57:45,285 INFO    MainThread:1239 [wandb_init.py:init():480] backend started and connected
+2022-02-24 07:57:45,303 INFO    MainThread:1239 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-24 07:57:45,304 INFO    MainThread:1239 [wandb_run.py:_label_probe_notebook():931] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-02-24 07:57:45,304 INFO    MainThread:1239 [wandb_init.py:init():550] updated telemetry
+2022-02-24 07:57:45,306 INFO    MainThread:1239 [wandb_init.py:init():581] communicating current version
+2022-02-24 07:57:46,084 INFO    MainThread:1239 [wandb_init.py:init():586] got version response 
+2022-02-24 07:57:46,084 INFO    MainThread:1239 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-24 07:57:46,482 INFO    MainThread:1239 [wandb_init.py:init():624] starting run threads in backend
+2022-02-24 07:57:50,142 INFO    MainThread:1239 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-24 07:57:50,142 INFO    MainThread:1239 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-24 07:57:50,143 INFO    MainThread:1239 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-24 07:57:50,143 INFO    MainThread:1239 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-24 07:57:50,143 INFO    MainThread:1239 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-24 07:57:50,156 INFO    MainThread:1239 [wandb_watch.py:watch():43] Watching

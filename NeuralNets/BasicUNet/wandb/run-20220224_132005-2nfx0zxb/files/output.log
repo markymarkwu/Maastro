@@ -1,0 +1,34 @@
+
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+Training ...
+torch.Size([2, 189, 512, 512])
+X: torch.Size([2, 71, 140, 195]) y: torch.Size([1, 71, 140, 195])
+<input loaded>
+<Foward finished>
+<Backward finished>
+Training loss after epoch 1: 0.9859793782234192
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+100%|█████████████████████████████████████████████| 1/1 [01:25<00:00, 85.01s/it]
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+torch.Size([2, 189, 512, 512])
+X: torch.Size([2, 71, 140, 195]) y: torch.Size([1, 71, 140, 195])
+<input loaded>
+
+100%|█████████████████████████████████████████████| 1/1 [01:04<00:00, 64.59s/it]
+<Backward finished>
+Training loss after epoch 1: 0.9859701991081238
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+ERROR:root:dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/wwy/Basic%20UNet/2nfx0zxb/file_stream
+NoneType: None
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+ERROR:root:dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/wwy/Basic%20UNet/2nfx0zxb/file_stream
+NoneType: None
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+ERROR:root:dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/wwy/Basic%20UNet/2nfx0zxb/file_stream
+NoneType: None
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+ERROR:root:dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/wwy/Basic%20UNet/2nfx0zxb/file_stream
+NoneType: None
+Finding the best output dimension ...
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
