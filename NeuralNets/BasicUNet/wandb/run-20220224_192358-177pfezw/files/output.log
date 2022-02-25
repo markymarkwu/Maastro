@@ -1,0 +1,18 @@
+
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+Original input size :  torch.Size([2, 166, 512, 586])
+Cropped input size is:  torch.Size([2, 117, 140, 195])
+Cropped label size is:  torch.Size([1, 117, 140, 195])
+<<input loaded>>
+<<Foward finished>>
+<<Backward finished>>
+Original input size :  torch.Size([2, 189, 512, 512])
+Cropped input size is:  torch.Size([2, 117, 140, 195])
+Cropped label size is:  torch.Size([1, 117, 140, 195])
+<<input loaded>>
+<<Foward finished>>
+<<Backward finished>>
+Training loss after epoch 1: 1.9829531908035278
+
+100%|████████████████████████████████████████████| 1/1 [06:23<00:00, 383.26s/it]

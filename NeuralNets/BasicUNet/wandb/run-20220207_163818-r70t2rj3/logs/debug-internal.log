@@ -1,0 +1,188 @@
+2022-02-07 16:38:18,928 INFO    MainThread:8824 [internal.py:wandb_internal():89] W&B internal server running at pid: 8824, started at: 2022-02-07 16:38:18.928804
+2022-02-07 16:38:18,929 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: check_version
+2022-02-07 16:38:18,929 INFO    WriterThread:8824 [datastore.py:open_for_write():77] open: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/run-r70t2rj3.wandb
+2022-02-07 16:38:18,930 DEBUG   SenderThread:8824 [sender.py:send():235] send: header
+2022-02-07 16:38:18,930 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: check_version
+2022-02-07 16:38:19,505 DEBUG   SenderThread:8824 [sender.py:send():235] send: run
+2022-02-07 16:38:19,510 DEBUG   SenderThread:8824 [git.py:repo():33] git repository is invalid
+2022-02-07 16:38:19,942 INFO    SenderThread:8824 [dir_watcher.py:__init__():169] watching files in: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files
+2022-02-07 16:38:19,942 INFO    SenderThread:8824 [sender.py:_start_run_threads():809] run started: r70t2rj3 with start time 1644248298
+2022-02-07 16:38:19,943 DEBUG   SenderThread:8824 [sender.py:send():235] send: summary
+2022-02-07 16:38:19,943 INFO    SenderThread:8824 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-07 16:38:19,945 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: run_start
+2022-02-07 16:38:19,948 DEBUG   HandlerThread:8824 [meta.py:__init__():36] meta init
+2022-02-07 16:38:19,953 DEBUG   HandlerThread:8824 [meta.py:__init__():50] meta init done
+2022-02-07 16:38:19,954 DEBUG   HandlerThread:8824 [meta.py:probe():210] probe
+2022-02-07 16:38:19,957 DEBUG   HandlerThread:8824 [git.py:repo():33] git repository is invalid
+2022-02-07 16:38:19,957 DEBUG   HandlerThread:8824 [meta.py:_save_pip():54] save pip
+2022-02-07 16:38:19,958 DEBUG   HandlerThread:8824 [meta.py:_save_pip():68] save pip done
+2022-02-07 16:38:19,959 DEBUG   HandlerThread:8824 [meta.py:_save_conda():75] save conda
+2022-02-07 16:38:20,949 INFO    Thread-8  :8824 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/requirements.txt
+2022-02-07 16:38:20,949 INFO    Thread-8  :8824 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/conda-environment.yaml
+2022-02-07 16:38:20,949 INFO    Thread-8  :8824 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/wandb-summary.json
+2022-02-07 16:38:21,443 DEBUG   HandlerThread:8824 [meta.py:_save_conda():85] save conda done
+2022-02-07 16:38:21,443 DEBUG   HandlerThread:8824 [meta.py:probe():248] probe done
+2022-02-07 16:38:21,446 DEBUG   SenderThread:8824 [sender.py:send():235] send: files
+2022-02-07 16:38:21,446 INFO    SenderThread:8824 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-07 16:38:21,449 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-07 16:38:21,449 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: stop_status
+2022-02-07 16:38:21,451 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: pause
+2022-02-07 16:38:21,451 INFO    HandlerThread:8824 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-07 16:38:21,823 DEBUG   SenderThread:8824 [sender.py:send():235] send: stats
+2022-02-07 16:38:21,954 INFO    Thread-8  :8824 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/conda-environment.yaml
+2022-02-07 16:38:21,954 INFO    Thread-8  :8824 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/wandb-metadata.json
+2022-02-07 16:38:21,954 INFO    Thread-8  :8824 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/output.log
+2022-02-07 16:38:22,502 INFO    Thread-11 :8824 [upload_job.py:push():137] Uploaded file /var/folders/wb/gdwc4q3s1x3cv4bftb9vssb00000gn/T/tmpdc4ca4kewandb/1rq4v9cv-wandb-metadata.json
+2022-02-07 16:38:36,827 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-07 16:38:36,827 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: stop_status
+2022-02-07 16:38:46,925 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: resume
+2022-02-07 16:38:46,925 INFO    HandlerThread:8824 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-07 16:38:46,940 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: pause
+2022-02-07 16:38:46,940 INFO    HandlerThread:8824 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-07 16:38:47,032 DEBUG   SenderThread:8824 [sender.py:send():235] send: stats
+2022-02-07 16:38:52,202 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-07 16:38:52,203 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: stop_status
+2022-02-07 16:39:07,612 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-07 16:39:07,614 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: stop_status
+2022-02-07 16:39:12,295 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: resume
+2022-02-07 16:39:12,296 INFO    HandlerThread:8824 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-07 16:39:12,308 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: pause
+2022-02-07 16:39:12,308 INFO    HandlerThread:8824 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-07 16:39:12,404 DEBUG   SenderThread:8824 [sender.py:send():235] send: stats
+2022-02-07 16:39:18,112 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: resume
+2022-02-07 16:39:18,112 INFO    HandlerThread:8824 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-07 16:39:18,115 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: pause
+2022-02-07 16:39:18,116 INFO    HandlerThread:8824 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-07 16:39:18,222 DEBUG   SenderThread:8824 [sender.py:send():235] send: stats
+2022-02-07 16:39:20,170 INFO    Thread-8  :8824 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/output.log
+2022-02-07 16:39:22,950 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-07 16:39:22,951 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: stop_status
+2022-02-07 16:39:23,006 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: resume
+2022-02-07 16:39:23,006 INFO    HandlerThread:8824 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-07 16:39:23,894 DEBUG   SenderThread:8824 [sender.py:send():235] send: telemetry
+2022-02-07 16:39:23,895 DEBUG   SenderThread:8824 [sender.py:send():235] send: exit
+2022-02-07 16:39:23,895 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:23,895 INFO    SenderThread:8824 [sender.py:send_exit():371] handling exit code: 0
+2022-02-07 16:39:23,896 INFO    SenderThread:8824 [sender.py:send_exit():373] handling runtime: 2
+2022-02-07 16:39:23,897 INFO    SenderThread:8824 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-07 16:39:23,897 INFO    SenderThread:8824 [sender.py:send_exit():379] send defer
+2022-02-07 16:39:23,898 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:23,899 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:23,899 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 0
+2022-02-07 16:39:23,900 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:23,900 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-02-07 16:39:23,900 INFO    SenderThread:8824 [sender.py:transition_state():392] send defer: 1
+2022-02-07 16:39:23,901 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:23,901 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 1
+2022-02-07 16:39:23,931 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:23,931 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-02-07 16:39:23,932 INFO    SenderThread:8824 [sender.py:transition_state():392] send defer: 2
+2022-02-07 16:39:23,932 DEBUG   SenderThread:8824 [sender.py:send():235] send: stats
+2022-02-07 16:39:23,933 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:23,933 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 2
+2022-02-07 16:39:23,933 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:23,933 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-02-07 16:39:23,933 INFO    SenderThread:8824 [sender.py:transition_state():392] send defer: 3
+2022-02-07 16:39:23,933 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:23,934 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 3
+2022-02-07 16:39:23,934 DEBUG   SenderThread:8824 [sender.py:send():235] send: summary
+2022-02-07 16:39:23,934 INFO    SenderThread:8824 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-07 16:39:23,935 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:23,935 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-02-07 16:39:23,935 INFO    SenderThread:8824 [sender.py:transition_state():392] send defer: 4
+2022-02-07 16:39:23,935 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:23,935 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 4
+2022-02-07 16:39:23,936 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:23,936 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-02-07 16:39:24,011 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:24,189 INFO    Thread-8  :8824 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/output.log
+2022-02-07 16:39:24,189 INFO    Thread-8  :8824 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/wandb-summary.json
+2022-02-07 16:39:24,370 INFO    SenderThread:8824 [sender.py:transition_state():392] send defer: 5
+2022-02-07 16:39:24,371 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:24,372 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:24,373 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 5
+2022-02-07 16:39:24,373 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:24,373 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-02-07 16:39:24,373 INFO    SenderThread:8824 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-07 16:39:24,477 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:25,196 INFO    SenderThread:8824 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/config.yaml
+2022-02-07 16:39:25,197 INFO    SenderThread:8824 [dir_watcher.py:finish():313] scan: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files
+2022-02-07 16:39:25,197 INFO    SenderThread:8824 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/requirements.txt requirements.txt
+2022-02-07 16:39:25,198 INFO    SenderThread:8824 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/output.log output.log
+2022-02-07 16:39:25,199 INFO    SenderThread:8824 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/config.yaml config.yaml
+2022-02-07 16:39:25,206 INFO    SenderThread:8824 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/wandb-summary.json wandb-summary.json
+2022-02-07 16:39:25,215 INFO    SenderThread:8824 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/conda-environment.yaml conda-environment.yaml
+2022-02-07 16:39:25,222 INFO    SenderThread:8824 [dir_watcher.py:finish():327] scan save: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/wandb-metadata.json wandb-metadata.json
+2022-02-07 16:39:25,223 INFO    SenderThread:8824 [sender.py:transition_state():392] send defer: 6
+2022-02-07 16:39:25,226 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:25,227 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:25,227 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 6
+2022-02-07 16:39:25,228 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:25,228 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-02-07 16:39:25,228 INFO    SenderThread:8824 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-07 16:39:25,335 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:25,335 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:25,441 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:25,441 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:25,547 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:25,547 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:25,653 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:25,653 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:25,759 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:25,759 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:25,865 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:25,866 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:25,971 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:25,971 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:26,077 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:26,077 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:26,183 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:26,183 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:26,289 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:26,289 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:26,396 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:26,396 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:26,504 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:26,505 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:26,614 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:26,614 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:26,625 INFO    Thread-20 :8824 [upload_job.py:push():137] Uploaded file /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/conda-environment.yaml
+2022-02-07 16:39:26,637 INFO    Thread-18 :8824 [upload_job.py:push():137] Uploaded file /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/config.yaml
+2022-02-07 16:39:26,646 INFO    Thread-19 :8824 [upload_job.py:push():137] Uploaded file /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/wandb-summary.json
+2022-02-07 16:39:26,660 INFO    Thread-17 :8824 [upload_job.py:push():137] Uploaded file /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/output.log
+2022-02-07 16:39:26,681 INFO    Thread-16 :8824 [upload_job.py:push():137] Uploaded file /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/files/requirements.txt
+2022-02-07 16:39:26,724 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:26,725 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:26,831 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:26,832 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:26,887 INFO    Thread-7  :8824 [sender.py:transition_state():392] send defer: 7
+2022-02-07 16:39:26,889 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:26,889 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 7
+2022-02-07 16:39:26,889 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:26,889 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-02-07 16:39:26,942 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:27,454 INFO    SenderThread:8824 [sender.py:transition_state():392] send defer: 8
+2022-02-07 16:39:27,454 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:27,455 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:27,456 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 8
+2022-02-07 16:39:27,456 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:27,456 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-02-07 16:39:27,457 INFO    SenderThread:8824 [sender.py:transition_state():392] send defer: 9
+2022-02-07 16:39:27,458 DEBUG   SenderThread:8824 [sender.py:send():235] send: final
+2022-02-07 16:39:27,458 DEBUG   SenderThread:8824 [sender.py:send():235] send: footer
+2022-02-07 16:39:27,459 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: defer
+2022-02-07 16:39:27,459 INFO    HandlerThread:8824 [handler.py:handle_request_defer():154] handle defer: 9
+2022-02-07 16:39:27,459 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: defer
+2022-02-07 16:39:27,459 INFO    SenderThread:8824 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-02-07 16:39:27,563 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: poll_exit
+2022-02-07 16:39:27,564 DEBUG   SenderThread:8824 [sender.py:send_request():249] send_request: poll_exit
+2022-02-07 16:39:27,564 INFO    SenderThread:8824 [file_pusher.py:join():182] waiting for file pusher
+2022-02-07 16:39:28,323 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: get_summary
+2022-02-07 16:39:28,325 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: sampled_history
+2022-02-07 16:39:28,326 DEBUG   HandlerThread:8824 [handler.py:handle_request():131] handle_request: shutdown
+2022-02-07 16:39:28,327 INFO    HandlerThread:8824 [handler.py:finish():739] shutting down handler
+2022-02-07 16:39:28,464 INFO    WriterThread:8824 [datastore.py:close():281] close: /Users/wangyangwu/Documents/Maastro/NeuralNets/BasicUNet/wandb/run-20220207_163818-r70t2rj3/run-r70t2rj3.wandb
+2022-02-07 16:39:29,322 INFO    SenderThread:8824 [sender.py:finish():1075] shutting down sender
+2022-02-07 16:39:29,322 INFO    SenderThread:8824 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-07 16:39:29,322 INFO    SenderThread:8824 [file_pusher.py:join():182] waiting for file pusher
+2022-02-07 16:39:29,325 INFO    MainThread:8824 [internal.py:handle_exit():79] Internal process exited
