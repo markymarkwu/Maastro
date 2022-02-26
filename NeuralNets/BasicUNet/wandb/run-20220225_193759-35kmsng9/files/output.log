@@ -1,0 +1,10 @@
+
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+Original input size:  torch.Size([6, 166, 512, 586])
+Original label size:  (1, 117, 110, 165)
+Cropped input size is:  torch.Size([6, 117, 295, 511])
+
+  0%|                                                     | 0/1 [00:26<?, ?it/s]
+TRAINING STARTS ...
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

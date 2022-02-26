@@ -1,0 +1,4 @@
+
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+BasicUNet features: (6, 16, 32, 64, 128, 16).
+Cropped input size:  torch.Size([2, 170, 440, 542])
