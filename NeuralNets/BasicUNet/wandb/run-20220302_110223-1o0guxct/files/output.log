@@ -1,0 +1,8 @@
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+ERROR:root:dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/wwy/Basic_UNet_%5B'CTV1'%5D/1o0guxct/file_stream
+NoneType: None
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+ERROR:root:dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/wwy/Basic_UNet_%5B'CTV1'%5D/1o0guxct/file_stream
+NoneType: None
+TRAINING STARTS ...
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

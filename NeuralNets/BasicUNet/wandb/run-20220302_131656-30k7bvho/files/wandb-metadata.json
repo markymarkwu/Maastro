@@ -1,0 +1,19 @@
+{
+    "os": "macOS-12.2.1-arm64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-03-02T12:16:57.952744",
+    "startedAt": "2022-03-02T12:16:56.670682",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/wangyangwu/Library/Jupyter/runtime/kernel-6a0ccc58-882e-4cdd-aadb-13437b77ded4.json"
+    ],
+    "state": "running",
+    "program": "Documents/Maastro/NeuralNets/BasicUNet/NetTrainerCustom.ipynb",
+    "root": "/Users/wangyangwu",
+    "host": "Wangyangs-Mac-mini.local",
+    "username": "wangyangwu",
+    "executable": "/Users/wangyangwu/miniforge3/envs/maastro/bin/python"
+}

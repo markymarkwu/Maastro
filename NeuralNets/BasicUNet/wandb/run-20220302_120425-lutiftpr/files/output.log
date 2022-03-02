@@ -1,0 +1,9 @@
+
+  0%|                                                     | 0/1 [00:00<?, ?it/s]
+Input data loaded for Patient ID:P0439C0006I2866736
+Input data loaded for Patient ID:P0439C0006I3038573
+Training loss after epoch 1: 1.9812228083610535
+Input data loaded for Patient ID:P0439C0006I1473766
+forward done
+
+100%|████████████████████████████████████████████| 1/1 [10:05<00:00, 605.92s/it]
