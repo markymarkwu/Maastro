@@ -1,0 +1,13 @@
+
+BasicUNet features: (1, 2, 4, 8, 16, 1).
+  0%|                                                     | 0/2 [00:00<?, ?it/s]
+Input data loaded for Patient ID:P0439C0006I1473766
+torch.Size([1, 1, 117, 338, 516])
+Training loss after epoch 1: 0.9652746915817261
+
+ 50%|██████████████████████                      | 1/2 [02:22<02:22, 142.63s/it]
+Input data loaded for Patient ID:P0439C0006I1473766
+torch.Size([1, 1, 117, 338, 516])
+Training loss after epoch 2: 0.9900766015052795
+
+100%|████████████████████████████████████████████| 2/2 [04:51<00:00, 145.90s/it]

@@ -1,0 +1,28 @@
+
+BasicUNet features: (1, 2, 4, 8, 16, 1).
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+Input data loaded for Patient ID:P0439C0006I1473766
+torch.Size([1, 1, 117, 338, 516])
+Training loss after epoch 1: 0.9720250964164734
+
+ 20%|████████▊                                   | 1/5 [02:53<11:34, 173.71s/it]
+Input data loaded for Patient ID:P0439C0006I1473766
+torch.Size([1, 1, 117, 338, 516])
+Training loss after epoch 2: 0.9765575528144836
+
+ 40%|█████████████████▌                          | 2/5 [05:19<07:52, 157.36s/it]
+Input data loaded for Patient ID:P0439C0006I1473766
+torch.Size([1, 1, 117, 338, 516])
+Training loss after epoch 3: 0.9678651690483093
+
+ 60%|██████████████████████████▍                 | 3/5 [07:38<04:58, 149.02s/it]
+Input data loaded for Patient ID:P0439C0006I1473766
+
+ 80%|███████████████████████████████████▏        | 4/5 [10:12<02:31, 151.03s/it]
+Training loss after epoch 4: 0.9687031507492065
+Validation loss after epoch 4: 0
+Input data loaded for Patient ID:P0439C0006I1473766
+torch.Size([1, 1, 117, 338, 516])
+Training loss after epoch 5: 0.9657237529754639
+
+100%|████████████████████████████████████████████| 5/5 [12:18<00:00, 147.63s/it]

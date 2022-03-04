@@ -1,0 +1,62 @@
+BasicUNet features: (1, 2, 4, 8, 16, 1).
+Input data loaded for Patient ID:P0439C0006I3038573
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+Input data loaded for Patient ID:P0439C0006I2866736
+Training loss after epoch 1: 0.9681004285812378
+
+ 10%|████▍                                       | 1/10 [00:03<00:35,  3.95s/it]
+Validation loss after epoch 1: 0.967298686504364
+Input data loaded for Patient ID:P0439C0006I3038573
+Input data loaded for Patient ID:P0439C0006I2866736
+Training loss after epoch 2: 0.9542016685009003
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 2: 0.9624214172363281
+
+ 20%|████████▊                                   | 2/10 [00:07<00:31,  3.89s/it]
+Input data loaded for Patient ID:P0439C0006I2866736
+Training loss after epoch 3: 0.9469625353813171
+
+ 30%|█████████████▏                              | 3/10 [00:11<00:27,  3.91s/it]
+Validation loss after epoch 3: 0.9552994966506958
+
+ 40%|█████████████████▌                          | 4/10 [00:15<00:23,  3.87s/it]
+Input data loaded for Patient ID:P0439C0006I2866736
+Training loss after epoch 4: 0.940491646528244
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 4: 0.9510337710380554
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 50%|██████████████████████                      | 5/10 [00:19<00:19,  3.86s/it]
+Training loss after epoch 5: 0.9386760592460632
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 5: 0.9491214156150818
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 60%|██████████████████████████▍                 | 6/10 [00:23<00:15,  3.87s/it]
+Training loss after epoch 6: 0.9369121491909027
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 6: 0.9482559561729431
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 70%|██████████████████████████████▊             | 7/10 [00:27<00:11,  3.86s/it]
+Training loss after epoch 7: 0.9331908524036407
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 7: 0.945090115070343
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 80%|███████████████████████████████████▏        | 8/10 [00:30<00:07,  3.86s/it]
+Training loss after epoch 8: 0.9276263415813446
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 8: 0.9477447271347046
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 90%|███████████████████████████████████████▌    | 9/10 [00:34<00:03,  3.84s/it]
+Training loss after epoch 9: 0.9299240410327911
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 9: 0.9852402806282043
+Input data loaded for Patient ID:P0439C0006I2866736
+Input data loaded for Patient ID:P0439C0006I3038573
+Training loss after epoch 10: 0.9764944314956665
+Input data loaded for Patient ID:P0439C0006I1473766
+
+100%|███████████████████████████████████████████| 10/10 [00:38<00:00,  3.87s/it]

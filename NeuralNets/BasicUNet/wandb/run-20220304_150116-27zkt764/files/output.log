@@ -1,0 +1,57 @@
+BasicUNet features: (1, 2, 4, 8, 16, 1).
+Input data loaded for Patient ID:P0439C0006I2866736
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+Input data loaded for Patient ID:P0439C0006I3038573
+Training loss after epoch 1: 0.9477501511573792
+
+ 10%|████▍                                       | 1/10 [00:05<00:53,  5.89s/it]
+Validation loss after epoch 1: 0.9691734313964844
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 20%|████████▊                                   | 2/10 [00:11<00:45,  5.71s/it]
+Training loss after epoch 2: 0.9401130974292755
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 2: 0.9073709845542908
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 30%|█████████████▏                              | 3/10 [00:17<00:39,  5.67s/it]
+Training loss after epoch 3: 0.8958880603313446
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 3: 0.9170811772346497
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 40%|█████████████████▌                          | 4/10 [00:23<00:34,  5.77s/it]
+Training loss after epoch 4: 0.903181254863739
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 4: 0.9180963039398193
+Input data loaded for Patient ID:P0439C0006I2866736
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 50%|██████████████████████                      | 5/10 [00:28<00:28,  5.71s/it]
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 5: 0.9194663166999817
+Input data loaded for Patient ID:P0439C0006I2866736
+Input data loaded for Patient ID:P0439C0006I3038573
+Training loss after epoch 6: 0.8842325806617737
+
+ 60%|██████████████████████████▍                 | 6/10 [00:34<00:22,  5.66s/it]
+Validation loss after epoch 6: 0.8999492526054382
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 70%|██████████████████████████████▊             | 7/10 [00:39<00:16,  5.65s/it]
+Training loss after epoch 7: 0.8672124445438385
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 7: 0.9062063694000244
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 80%|███████████████████████████████████▏        | 8/10 [00:45<00:11,  5.69s/it]
+Training loss after epoch 8: 0.8860223889350891
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 8: 0.9129500389099121
+Input data loaded for Patient ID:P0439C0006I2866736
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 80%|███████████████████████████████████▏        | 8/10 [00:50<00:12,  6.36s/it]
+Input data loaded for Patient ID:P0439C0006I1473766
+TRAINING STARTS ...
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

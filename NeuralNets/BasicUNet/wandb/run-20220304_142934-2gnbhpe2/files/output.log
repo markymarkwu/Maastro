@@ -1,0 +1,53 @@
+
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+BasicUNet features: (1, 2, 4, 8, 16, 1).
+Input data loaded for Patient ID:P0439C0006I3038573
+Input data loaded for Patient ID:P0439C0006I2866736
+Training loss after epoch 1: 0.9560785293579102
+Validation loss after epoch 1: 0
+
+ 10%|████▍                                       | 1/10 [00:04<00:42,  4.69s/it]
+
+ 20%|████████▊                                   | 2/10 [00:08<00:34,  4.35s/it]
+Training loss after epoch 2: 0.9562402963638306
+Validation loss after epoch 2: 0
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 30%|█████████████▏                              | 3/10 [00:13<00:30,  4.42s/it]
+Training loss after epoch 3: 0.9570306539535522
+Validation loss after epoch 3: 0
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 40%|█████████████████▌                          | 4/10 [00:17<00:25,  4.29s/it]
+Training loss after epoch 4: 0.9561944007873535
+Validation loss after epoch 4: 0
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 50%|██████████████████████                      | 5/10 [00:21<00:21,  4.29s/it]
+Training loss after epoch 5: 0.9559913873672485
+Validation loss after epoch 5: 0
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 60%|██████████████████████████▍                 | 6/10 [00:26<00:17,  4.38s/it]
+Training loss after epoch 6: 0.9559613466262817
+Validation loss after epoch 6: 0
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 70%|██████████████████████████████▊             | 7/10 [00:30<00:13,  4.36s/it]
+Training loss after epoch 7: 0.9559699892997742
+Validation loss after epoch 7: 0
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 80%|███████████████████████████████████▏        | 8/10 [00:34<00:08,  4.26s/it]
+Training loss after epoch 8: 0.9559640884399414
+Validation loss after epoch 8: 0
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 90%|███████████████████████████████████████▌    | 9/10 [00:38<00:04,  4.25s/it]
+Training loss after epoch 9: 0.9559701681137085
+Validation loss after epoch 9: 0
+Input data loaded for Patient ID:P0439C0006I2866736
+Input data loaded for Patient ID:P0439C0006I3038573
+Training loss after epoch 10: 0.9559659957885742
+
+100%|███████████████████████████████████████████| 10/10 [00:43<00:00,  4.35s/it]

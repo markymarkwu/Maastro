@@ -1,0 +1,83 @@
+
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+BasicUNet features: (1, 2, 4, 8, 16, 1).
+Input data loaded for Patient ID:P0439C0006I2866736
+tensor(0.0481, grad_fn=<MinBackward1>) tensor(1.0151, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I3038573
+tensor(0.1004, grad_fn=<MinBackward1>) tensor(0.6138, grad_fn=<MaxBackward1>)
+Training loss after epoch 1: 0.4768597185611725
+
+ 10%|████▍                                       | 1/10 [00:05<00:50,  5.60s/it]
+Validation loss after epoch 1: 0.2302074432373047
+Input data loaded for Patient ID:P0439C0006I3038573
+tensor(0.1196, grad_fn=<MinBackward1>) tensor(0.5353, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I2866736
+tensor(0.1318, grad_fn=<MinBackward1>) tensor(0.5703, grad_fn=<MaxBackward1>)
+
+ 20%|████████▊                                   | 2/10 [00:10<00:40,  5.12s/it]
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 2: 0.2620144486427307
+Input data loaded for Patient ID:P0439C0006I3038573
+tensor(0.1453, grad_fn=<MinBackward1>) tensor(0.6038, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 30%|█████████████▏                              | 3/10 [00:15<00:35,  5.08s/it]
+Training loss after epoch 3: 0.26966726779937744
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 3: 0.12330460548400879
+Input data loaded for Patient ID:P0439C0006I3038573
+tensor(0.1638, grad_fn=<MinBackward1>) tensor(0.6391, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I2866736
+tensor(0.1714, grad_fn=<MinBackward1>) tensor(0.5979, grad_fn=<MaxBackward1>)
+Training loss after epoch 4: 0.23413628339767456
+
+ 40%|█████████████████▌                          | 4/10 [00:20<00:29,  4.93s/it]
+Validation loss after epoch 4: -0.05488872528076172
+Input data loaded for Patient ID:P0439C0006I3038573
+tensor(0.1833, grad_fn=<MinBackward1>) tensor(0.6681, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 50%|██████████████████████                      | 5/10 [00:24<00:24,  4.90s/it]
+Training loss after epoch 5: 0.10587212443351746
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 5: -0.027439475059509277
+Input data loaded for Patient ID:P0439C0006I3038573
+tensor(0.2004, grad_fn=<MinBackward1>) tensor(0.9320, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I2866736
+
+ 60%|██████████████████████████▍                 | 6/10 [00:29<00:19,  4.84s/it]
+Training loss after epoch 6: -0.05816012620925903
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 6: -0.19699585437774658
+Input data loaded for Patient ID:P0439C0006I2866736
+tensor(0.2039, grad_fn=<MinBackward1>) tensor(0.7651, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I3038573
+tensor(0.2066, grad_fn=<MinBackward1>) tensor(0.8339, grad_fn=<MaxBackward1>)
+
+ 70%|██████████████████████████████▊             | 7/10 [00:34<00:14,  4.86s/it]
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 7: -0.16051065921783447
+Input data loaded for Patient ID:P0439C0006I2866736
+tensor(0.2015, grad_fn=<MinBackward1>) tensor(0.9205, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 80%|███████████████████████████████████▏        | 8/10 [00:39<00:09,  4.77s/it]
+Training loss after epoch 8: -0.2106594443321228
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 8: -0.4222412109375
+Input data loaded for Patient ID:P0439C0006I2866736
+tensor(0.2017, grad_fn=<MinBackward1>) tensor(1.0877, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I3038573
+
+ 90%|███████████████████████████████████████▌    | 9/10 [00:43<00:04,  4.70s/it]
+Training loss after epoch 9: -0.3288436532020569
+Input data loaded for Patient ID:P0439C0006I1473766
+Validation loss after epoch 9: -0.43284153938293457
+Input data loaded for Patient ID:P0439C0006I3038573
+tensor(0.2199, grad_fn=<MinBackward1>) tensor(1.2349, grad_fn=<MaxBackward1>)
+Input data loaded for Patient ID:P0439C0006I2866736
+tensor(0.1523, grad_fn=<MinBackward1>) tensor(1.2440, grad_fn=<MaxBackward1>)
+Training loss after epoch 10: -0.3601751923561096
+Input data loaded for Patient ID:P0439C0006I1473766
+
+100%|███████████████████████████████████████████| 10/10 [00:48<00:00,  4.87s/it]

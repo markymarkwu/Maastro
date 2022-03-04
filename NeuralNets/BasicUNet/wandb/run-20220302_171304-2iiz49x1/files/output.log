@@ -1,0 +1,17 @@
+
+BasicUNet features: (1, 2, 4, 8, 16, 1).
+  0%|                                                     | 0/2 [00:00<?, ?it/s]
+Input data loaded for Patient ID:P0439C0006I2866736
+Input data loaded for Patient ID:P0439C0006I3038573
+Training loss after epoch 1: 0.9913028478622437
+Input data loaded for Patient ID:P0439C0006I1473766
+forward done
+
+ 50%|██████████████████████                      | 1/2 [05:56<05:56, 356.17s/it]
+Input data loaded for Patient ID:P0439C0006I3038573
+Input data loaded for Patient ID:P0439C0006I2866736
+Training loss after epoch 2: 0.9911314249038696
+Input data loaded for Patient ID:P0439C0006I1473766
+forward done
+
+100%|████████████████████████████████████████████| 2/2 [12:08<00:00, 364.10s/it]
