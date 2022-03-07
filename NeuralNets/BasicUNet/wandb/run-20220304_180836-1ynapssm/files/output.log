@@ -1,0 +1,92 @@
+BasicUNet features: (2, 2, 4, 8, 16, 2).
+tensor(1.) tensor(0.)
+tensor(0.3165) tensor(0.3162)
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+tensor(1.) tensor(0.)
+tensor(0.4226) tensor(0.4222)
+Training loss after epoch 1: 0.9662401378154755
+tensor(1.) tensor(0.)
+tensor(0.3245) tensor(0.3242)
+
+ 10%|████▍                                       | 1/10 [00:07<01:06,  7.34s/it]
+tensor(1.) tensor(0.)
+tensor(0.4226) tensor(0.4222)
+tensor(1.) tensor(0.)
+tensor(0.3165) tensor(0.3162)
+Training loss after epoch 2: 0.9627155065536499
+tensor(1.) tensor(0.)
+
+ 20%|████████▊                                   | 2/10 [00:14<00:57,  7.15s/it]
+Validation loss after epoch 2: 0.9711952209472656
+tensor(1.) tensor(0.)
+tensor(0.4226) tensor(0.4222)
+tensor(1.) tensor(0.)
+
+ 30%|█████████████▏                              | 3/10 [00:21<00:50,  7.15s/it]
+Training loss after epoch 3: 0.9605611860752106
+tensor(1.) tensor(0.)
+tensor(0.3245) tensor(0.3242)
+Validation loss after epoch 3: 0.9675978422164917
+tensor(1.) tensor(0.)
+tensor(0.3165) tensor(0.3162)
+tensor(1.) tensor(0.)
+tensor(0.4226) tensor(0.4222)
+Training loss after epoch 4: 0.9563994407653809
+tensor(1.) tensor(0.)
+tensor(0.3245) tensor(0.3242)
+Validation loss after epoch 4: 0.9543637037277222
+tensor(1.) tensor(0.)
+
+ 40%|█████████████████▌                          | 4/10 [00:29<00:43,  7.29s/it]
+tensor(1.) tensor(0.)
+tensor(0.3165) tensor(0.3162)
+Training loss after epoch 5: 0.9457860887050629
+tensor(1.) tensor(0.)
+
+ 50%|██████████████████████                      | 5/10 [00:36<00:35,  7.18s/it]
+Validation loss after epoch 5: 0.9362479448318481
+tensor(1.) tensor(0.)
+tensor(0.4226) tensor(0.4222)
+tensor(1.) tensor(0.)
+tensor(0.3165) tensor(0.3162)
+
+ 60%|██████████████████████████▍                 | 6/10 [00:42<00:28,  7.02s/it]
+tensor(1.) tensor(0.)
+tensor(0.3245) tensor(0.3242)
+Validation loss after epoch 6: 0.9273635745048523
+tensor(1.) tensor(0.)
+tensor(0.3165) tensor(0.3162)
+tensor(1.) tensor(0.)
+tensor(0.4226) tensor(0.4222)
+Training loss after epoch 7: 0.930019736289978
+tensor(1.) tensor(0.)
+tensor(0.3245) tensor(0.3242)
+
+ 70%|██████████████████████████████▊             | 7/10 [00:49<00:21,  7.04s/it]
+tensor(1.) tensor(0.)
+tensor(0.4226) tensor(0.4222)
+tensor(1.) tensor(0.)
+tensor(0.3165) tensor(0.3162)
+
+ 80%|███████████████████████████████████▏        | 8/10 [00:56<00:14,  7.06s/it]
+tensor(1.) tensor(0.)
+tensor(0.3245) tensor(0.3242)
+Validation loss after epoch 8: 0.9487558007240295
+tensor(1.) tensor(0.)
+tensor(0.3165) tensor(0.3162)
+tensor(1.) tensor(0.)
+
+ 90%|███████████████████████████████████████▌    | 9/10 [01:03<00:07,  7.04s/it]
+Training loss after epoch 9: 0.9299464821815491
+tensor(1.) tensor(0.)
+tensor(0.3245) tensor(0.3242)
+Validation loss after epoch 9: 0.9314449429512024
+tensor(1.) tensor(0.)
+tensor(0.3165) tensor(0.3162)
+tensor(1.) tensor(0.)
+tensor(0.4226) tensor(0.4222)
+Training loss after epoch 10: 0.9202323257923126
+tensor(1.) tensor(0.)
+tensor(0.3245) tensor(0.3242)
+
+100%|███████████████████████████████████████████| 10/10 [01:10<00:00,  7.09s/it]

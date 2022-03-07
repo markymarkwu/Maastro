@@ -1,0 +1,53 @@
+
+BasicUNet features: (2, 2, 4, 8, 16, 2).
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+tensor(-8.7368, grad_fn=<MinBackward1>) tensor(3.0029, grad_fn=<MaxBackward1>)
+
+ 10%|████▍                                       | 1/10 [00:07<01:05,  7.30s/it]
+Training loss after epoch 1: 0.9547891318798065
+Validation loss after epoch 1: 0.0
+tensor(0.1566, grad_fn=<MinBackward1>) tensor(7.5948, grad_fn=<MaxBackward1>)
+tensor(-0.1604, grad_fn=<MinBackward1>) tensor(9.2710, grad_fn=<MaxBackward1>)
+
+ 20%|████████▊                                   | 2/10 [00:14<00:56,  7.04s/it]
+Validation loss after epoch 2: 0.0
+tensor(-0.6649, grad_fn=<MinBackward1>) tensor(10.8332, grad_fn=<MaxBackward1>)
+
+ 30%|█████████████▏                              | 3/10 [00:21<00:49,  7.01s/it]
+Training loss after epoch 3: 0.8822999894618988
+Validation loss after epoch 3: 0.0
+tensor(-1.5699, grad_fn=<MinBackward1>) tensor(14.2646, grad_fn=<MaxBackward1>)
+tensor(-2.5053, grad_fn=<MinBackward1>) tensor(16.6311, grad_fn=<MaxBackward1>)
+
+ 40%|█████████████████▌                          | 4/10 [00:28<00:41,  6.96s/it]
+Validation loss after epoch 4: 0.0
+tensor(-3.2782, grad_fn=<MinBackward1>) tensor(14.3265, grad_fn=<MaxBackward1>)
+tensor(-3.8603, grad_fn=<MinBackward1>) tensor(13.0736, grad_fn=<MaxBackward1>)
+
+ 50%|██████████████████████                      | 5/10 [00:34<00:34,  6.92s/it]
+Validation loss after epoch 5: 0.0
+tensor(-3.9813, grad_fn=<MinBackward1>) tensor(12.8464, grad_fn=<MaxBackward1>)
+
+ 60%|██████████████████████████▍                 | 6/10 [00:41<00:27,  6.94s/it]
+Training loss after epoch 6: 1.1044642925262451
+Validation loss after epoch 6: 0.0
+tensor(-5.3161, grad_fn=<MinBackward1>) tensor(11.2398, grad_fn=<MaxBackward1>)
+tensor(-5.4583, grad_fn=<MinBackward1>) tensor(10.0085, grad_fn=<MaxBackward1>)
+
+ 70%|██████████████████████████████▊             | 7/10 [00:48<00:20,  6.93s/it]
+Validation loss after epoch 7: 0.0
+tensor(-7.8492, grad_fn=<MinBackward1>) tensor(9.7006, grad_fn=<MaxBackward1>)
+
+ 80%|███████████████████████████████████▏        | 8/10 [00:55<00:13,  6.92s/it]
+Training loss after epoch 8: 0.9937133193016052
+Validation loss after epoch 8: 0.0
+tensor(-6.1600, grad_fn=<MinBackward1>) tensor(10.7990, grad_fn=<MaxBackward1>)
+tensor(-7.8313, grad_fn=<MinBackward1>) tensor(9.7547, grad_fn=<MaxBackward1>)
+
+ 90%|███████████████████████████████████████▌    | 9/10 [01:02<00:06,  6.93s/it]
+Validation loss after epoch 9: 0.0
+tensor(-8.3738, grad_fn=<MinBackward1>) tensor(12.7192, grad_fn=<MaxBackward1>)
+tensor(-8.3219, grad_fn=<MinBackward1>) tensor(11.8536, grad_fn=<MaxBackward1>)
+Training loss after epoch 10: 0.9804363548755646
+
+100%|███████████████████████████████████████████| 10/10 [01:09<00:00,  6.97s/it]
