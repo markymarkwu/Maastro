@@ -1,0 +1,33 @@
+
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+BasicUNet features: (2, 2, 4, 8, 16, 2).
+
+ 10%|████▍                                       | 1/10 [00:20<03:08, 20.94s/it]
+Training loss after epoch 1: 1.5844008922576904||Validation loss after epoch 1: 0.0
+
+ 20%|████████▊                                   | 2/10 [00:34<02:13, 16.74s/it]
+Training loss after epoch 2: 1.4785435199737549||Validation loss after epoch 2: 0.0
+
+ 30%|█████████████▏                              | 3/10 [00:47<01:42, 14.71s/it]
+Training loss after epoch 3: 1.4279756546020508||Validation loss after epoch 3: 0.0
+
+ 40%|█████████████████▌                          | 4/10 [00:58<01:21, 13.56s/it]
+Training loss after epoch 4: 1.3886821269989014||Validation loss after epoch 4: 0.0
+
+ 50%|██████████████████████                      | 5/10 [01:10<01:05, 13.06s/it]
+Training loss after epoch 5: 1.3569254875183105||Validation loss after epoch 5: 0.0
+
+ 60%|██████████████████████████▍                 | 6/10 [01:23<00:51, 12.87s/it]
+Training loss after epoch 6: 1.3249598741531372||Validation loss after epoch 6: 0.0
+
+ 70%|██████████████████████████████▊             | 7/10 [01:35<00:37, 12.63s/it]
+Training loss after epoch 7: 1.2968380451202393||Validation loss after epoch 7: 0.0
+
+ 80%|███████████████████████████████████▏        | 8/10 [01:47<00:24, 12.45s/it]
+Training loss after epoch 8: 1.2719563245773315||Validation loss after epoch 8: 0.0
+
+ 90%|███████████████████████████████████████▌    | 9/10 [01:59<00:12, 12.31s/it]
+Training loss after epoch 9: 1.2485263347625732||Validation loss after epoch 9: 0.0
+torch.Size([2, 2, 117, 110, 191])
+
+100%|███████████████████████████████████████████| 10/10 [02:11<00:00, 13.12s/it]

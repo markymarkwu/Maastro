@@ -1,0 +1,83 @@
+
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+BasicUNet features: (2, 2, 4, 8, 16, 2).
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I3038573/label.npz
+tensor(0.7116, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+tensor(0.5790, grad_fn=<BinaryCrossEntropyBackward0>)
+Training loss after epoch 1: 1.6043817400932312
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I1473766/label.npz
+Validation loss after epoch 1: 0.9457757472991943
+
+ 10%|████▍                                       | 1/10 [00:08<01:15,  8.40s/it]
+tensor(0.4721, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+tensor(0.4486, grad_fn=<BinaryCrossEntropyBackward0>)
+Training loss after epoch 2: 1.4207000732421875
+
+ 20%|████████▊                                   | 2/10 [00:15<01:02,  7.75s/it]
+Validation loss after epoch 2: 0.9390933513641357
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I3038573/label.npz
+tensor(0.3644, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+tensor(0.3774, grad_fn=<BinaryCrossEntropyBackward0>)
+Training loss after epoch 3: 1.329055666923523
+
+ 30%|█████████████▏                              | 3/10 [00:23<00:53,  7.63s/it]
+Validation loss after epoch 3: 0.9380167722702026
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+tensor(0.3556, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I3038573/label.npz
+tensor(0.2808, grad_fn=<BinaryCrossEntropyBackward0>)
+Training loss after epoch 4: 1.274229645729065
+
+ 40%|█████████████████▌                          | 4/10 [00:30<00:45,  7.58s/it]
+Validation loss after epoch 4: 0.9360808730125427
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I3038573/label.npz
+tensor(0.2595, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+
+ 50%|██████████████████████                      | 5/10 [00:37<00:37,  7.44s/it]
+Training loss after epoch 5: 1.2603480815887451
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I1473766/label.npz
+Validation loss after epoch 5: 0.934920072555542
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+tensor(0.3375, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I3038573/label.npz
+tensor(0.2171, grad_fn=<BinaryCrossEntropyBackward0>)
+Training loss after epoch 6: 1.234579622745514
+
+ 60%|██████████████████████████▍                 | 6/10 [00:45<00:29,  7.37s/it]
+Validation loss after epoch 6: 0.9359390735626221
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I3038573/label.npz
+tensor(0.2085, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+tensor(0.3120, grad_fn=<BinaryCrossEntropyBackward0>)
+Training loss after epoch 7: 1.2158622741699219
+
+ 70%|██████████████████████████████▊             | 7/10 [00:52<00:21,  7.26s/it]
+Validation loss after epoch 7: 0.9380268454551697
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+tensor(0.2810, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I3038573/label.npz
+
+ 80%|███████████████████████████████████▏        | 8/10 [00:59<00:14,  7.32s/it]
+Training loss after epoch 8: 1.1901249885559082
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I1473766/label.npz
+Validation loss after epoch 8: 0.9354388117790222
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+tensor(0.2510, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I3038573/label.npz
+tensor(0.1679, grad_fn=<BinaryCrossEntropyBackward0>)
+Training loss after epoch 9: 1.165787398815155
+
+ 90%|███████████████████████████████████████▌    | 9/10 [01:06<00:07,  7.28s/it]
+Validation loss after epoch 9: 0.9329788684844971
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+tensor(0.2394, grad_fn=<BinaryCrossEntropyBackward0>)
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I3038573/label.npz
+tensor(0.1513, grad_fn=<BinaryCrossEntropyBackward0>)
+Training loss after epoch 10: 1.1486559510231018
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I1473766/label.npz
+
+100%|███████████████████████████████████████████| 10/10 [01:14<00:00,  7.42s/it]

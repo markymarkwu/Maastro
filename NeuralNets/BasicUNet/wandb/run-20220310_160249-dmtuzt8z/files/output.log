@@ -1,0 +1,7 @@
+
+BasicUNet features: (2, 2, 4, 8, 16, 2).
+
+  0%|                                                    | 0/10 [00:05<?, ?it/s]
+torch.Size([2, 2, 117, 110, 191])
+TRAINING STARTS ...
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

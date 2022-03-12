@@ -1,0 +1,62 @@
+
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I3038573/label.npz
+Training loss after epoch 1: 2.24946928024292
+
+ 10%|████▍                                       | 1/10 [00:30<04:33, 30.41s/it]
+Validation loss after epoch 1: 2.3646509647369385
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I3038573/label.npz
+Training loss after epoch 2: 1.9366939067840576
+
+ 20%|████████▊                                   | 2/10 [00:59<03:57, 29.63s/it]
+Validation loss after epoch 2: 1.5541188716888428
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I3038573/label.npz
+Training loss after epoch 3: 1.4473637342453003
+
+ 30%|█████████████▏                              | 3/10 [01:29<03:27, 29.63s/it]
+Validation loss after epoch 3: 1.336759328842163
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I3038573/label.npz
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+Training loss after epoch 4: 1.271582841873169
+
+ 40%|█████████████████▌                          | 4/10 [02:01<03:03, 30.58s/it]
+Validation loss after epoch 4: 1.1813863515853882
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I3038573/label.npz
+Training loss after epoch 5: 1.2351454496383667
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I1473766/label.npz
+Validation loss after epoch 5: 1.1745812892913818
+
+ 50%|██████████████████████                      | 5/10 [02:30<02:30, 30.17s/it]
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+Training loss after epoch 6: 1.211243748664856
+
+ 60%|██████████████████████████▍                 | 6/10 [02:59<01:58, 29.72s/it]
+Validation loss after epoch 6: 1.1727591753005981
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I3038573/label.npz
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+Training loss after epoch 7: 1.2195334434509277
+
+ 70%|██████████████████████████████▊             | 7/10 [03:28<01:28, 29.52s/it]
+Validation loss after epoch 7: 1.148596167564392
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I3038573/label.npz
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+Training loss after epoch 8: 1.206632673740387
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I1473766/label.npz
+Validation loss after epoch 8: 1.1388092041015625
+
+ 80%|███████████████████████████████████▏        | 8/10 [03:59<00:59, 29.90s/it]
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+Training loss after epoch 9: 1.1652986407279968
+
+ 90%|███████████████████████████████████████▌    | 9/10 [04:29<00:30, 30.14s/it]
+Validation loss after epoch 9: 1.1410845518112183
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I3038573/label.npz
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I2866736/label.npz
+Training loss after epoch 10: 1.1991440057754517
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['heart', 'CTV1']/P0439C0006I1473766/label.npz
+
+100%|███████████████████████████████████████████| 10/10 [05:01<00:00, 30.15s/it]

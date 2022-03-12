@@ -1,0 +1,7 @@
+BasicUNet features: (2, 2, 4, 8, 16, 2).
+/Users/wangyangwu/Documents/Maastro/NeuralNets/Processed_data/preprocessed_data_compressed_npz['CTV1']/P0439C0006I2866736/label.npz
+  0%|                                                    | 0/10 [00:00<?, ?it/s]
+
+  0%|                                                    | 0/10 [00:02<?, ?it/s]
+TRAINING STARTS ...
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
